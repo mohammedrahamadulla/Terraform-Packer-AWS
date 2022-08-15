@@ -1,0 +1,18 @@
+. Terraform Providers 
+2. resource names
+3. Remaing resources and eding statefile 
+4. Deleting resources 
+    - From Terraform State & From AWS/Azure 
+        terraform destroy -target aws_vpc.testvpc004  
+
+    - From State but not from the AWS/Azure 
+      terraform state rm aws_vpc.testvpс003 10 
+
+2. Terraform Files 
+   - resource files
+   - variable files
+   - terraform variables (tfvars) 
+ 
+3. Terraform backend with AWS S3.
+4. Variable Declaration 
+5. Variables.tf file for central variables.
