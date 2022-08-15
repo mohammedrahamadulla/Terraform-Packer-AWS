@@ -17,13 +17,6 @@ variable "env" {
 }
 
 
-variable "IGW_name" {
-  type        = string
-  default     = "testvpc001_igw"
-  description = "Environment Tag for IGW "
-
-}
-
 variable "public_subnet1_cidr" {
   type        = string
   default     = "10.1.1.0/24"
